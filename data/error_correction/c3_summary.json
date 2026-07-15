@@ -1,0 +1,9 @@
+{
+  "asr_model": "../whisper-small-hf",
+  "llm": "../Qwen2.5-1.5B-Instruct",
+  "num_samples": 3,
+  "asr_time_sec": 11.9,
+  "text_fix_time_sec": 37.5,
+  "llm_trans_time_sec": 21.0,
+  "total_time_sec": 70.4
+}

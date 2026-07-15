@@ -1,0 +1,33 @@
+Qwen2.5-1.5B对比Qwen3-1.7B差距
+Qwen2.5-1.5B数据c3_summary.json
+{
+  "asr_model": "../whisper-small-hf",
+  "llm": "../Qwen2.5-1.5B-Instruct",
+  "num_samples": 1000,
+  "asr_time_sec": 135.8,
+  "llm_time_sec": 251.9,
+  "total_time_sec": 387.7
+}
+Qwen3-1.7B数据c3_summary.json
+{
+  "asr_model": "../whisper-small-hf",
+  "llm": "/root/siton-tmp/02_agent/Qwen3-1.7B",
+  "num_samples": 1000,
+  "asr_time_sec": 145.6,
+  "llm_time_sec": 289.3,
+  "total_time_sec": 434.9
+}
+ASR 模块耗时
+Qwen2.5-1.5B-Instruct：135.8 秒
+Qwen3-1.7B：145.6 秒
+差距：Qwen3 音频预处理存在额外开销，整体识别阶段慢 9.8 秒
+
+LLM 翻译模块总耗时
+Qwen2.5-1.5B-Instruct：251.9 秒，单条平均 0.2519 秒，推理提速 12.96%
+Qwen3-1.7B：289.3 秒，单条平均 0.2893 秒
+差距：Qwen3 翻译阶段总耗时多 37.4 秒，单样本生成速度更慢
+
+整套级联流程总耗时
+Qwen2.5-1.5B-Instruct：387.7 秒，单样本平均总时延 0.3877 秒
+Qwen3-1.7B：434.9 秒，单样本平均总时延 0.4349 秒
+差距：全流程总时长相差 47.2 秒，Qwen2.5 整套流水线整体提速 10.85%

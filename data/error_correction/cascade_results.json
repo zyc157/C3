@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1026_DFA_SAD_XX",
+    "audio": "audio/1026_DFA_SAD_XX.wav",
+    "reference_en": "Don't forget a jacket",
+    "asr_text_raw": "Don't forget a jacket.",
+    "asr_text_fixed": "Please don't forget to bring a jacket.",
+    "translation_zh": "请别忘了带夹克。"
+  },
+  {
+    "id": "1048_IEO_HAP_HI",
+    "audio": "audio/1048_IEO_HAP_HI.wav",
+    "reference_en": "It's eleven o'clock",
+    "asr_text_raw": "It's 11 o'clock.",
+    "asr_text_fixed": "It is eleven o'clock.",
+    "translation_zh": "现在是十一点。"
+  },
+  {
+    "id": "1064_IOM_NEU_XX",
+    "audio": "audio/1064_IOM_NEU_XX.wav",
+    "reference_en": "I'm on my way to the meeting",
+    "asr_text_raw": "I'm on my way to the meeting.",
+    "asr_text_fixed": "I am on my way to the meeting.",
+    "translation_zh": "我正在去会议的路上。"
+  }
+]

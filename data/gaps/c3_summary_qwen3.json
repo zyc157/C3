@@ -1,0 +1,8 @@
+{
+  "asr_model": "../whisper-small-hf",
+  "llm": "/root/siton-tmp/02_agent/Qwen3-1.7B",
+  "num_samples": 1000,
+  "asr_time_sec": 145.6,
+  "llm_time_sec": 289.3,
+  "total_time_sec": 434.9
+}

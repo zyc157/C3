@@ -1,0 +1,9 @@
+common_data/audio/
+common_data/dataset.json
+whisper-small/
+Qwen*/
+outputs/*.json
+__pycache__/
+*.pth
+*.wav
+.DS_Store
